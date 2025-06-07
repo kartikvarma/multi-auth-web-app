@@ -1,0 +1,9 @@
+@template.layout.main(content = @`
+    <div>
+        <h1>Oh, no!</h1>
+        <p style="font-size:100px">&#129488;</p>
+        <p>Couldn't find what you are looking for</p>
+    </div>
+
+
+`)

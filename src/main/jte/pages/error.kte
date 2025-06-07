@@ -1,0 +1,11 @@
+
+
+@template.layout.main(content = @`
+<div>
+    <h1>Oopsy Daisy</h1>
+    <p style="font-size:100px">&#128533;</p>
+    <p>Something went wrong</p>
+</div>
+
+
+`)

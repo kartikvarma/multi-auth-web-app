@@ -1,0 +1,9 @@
+@template.layout.main(content = @`
+    <div>
+        <h1>Damn!</h1>
+        <p style="font-size:100px">&#128128;</p>
+        <p>Something terrible happened on the server</p>
+    </div>
+
+
+`)
