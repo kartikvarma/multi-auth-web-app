@@ -1,9 +1,7 @@
-import org.gradle.kotlin.dsl.compileOnly
-
 plugins {
     kotlin("jvm") version "2.1.10"
     kotlin("plugin.spring") version "2.1.10"
-    id("org.springframework.boot") version "3.4.6"
+    id("org.springframework.boot") version "3.5.0"
     id("io.spring.dependency-management") version "1.1.6"
     id("gg.jte.gradle") version "3.2.1"
 }
