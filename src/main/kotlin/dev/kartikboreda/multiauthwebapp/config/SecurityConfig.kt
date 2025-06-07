@@ -39,6 +39,10 @@ class SecurityConfig {
 //                failureUrl = "/login?error"
                 permitAll()
             }
+            oauth2Login {
+                loginPage = "/login"
+                defaultSuccessUrl("/home", true)
+            }
             logout {
                 logoutSuccessUrl = "/login?logout"
                 permitAll = true
